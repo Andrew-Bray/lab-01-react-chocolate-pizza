@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header.js'
-// import MainSection from './MainSection.js'
-// import Footer from './Footer.js'
-// import Citations from './Citations.js'
+import MainSection from './MainSection.js'
+import Footer from './Footer.js'
+import Citations from './Citations.js'
 
 
 import React, { Component } from 'react'
@@ -13,11 +12,11 @@ export default class App extends Component {
     return (
       <div>
         <Header />
-        {/* <MainSection />
+        <hr className="divider"></hr>
+        <MainSection />
         <Footer />
-        <Citations /> */}
+        <Citations />
       </div>
     )
   }
 }
-

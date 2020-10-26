@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
+
+
 html {
   display: flex;
   justify-content: center;
@@ -9,24 +16,18 @@ body {
   --gutter: 30px;
   --footer-height: 25px;
 
-  /* font-family: 'Titillium Web', sans-serif; */
   font-family: 'Times New Roman', Times, serif;
   color: rgb(81, 80, 87);
   background-color: var(--color2);
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;*/
-  width: 1000px; /*hmmmmmm*/
-  height: 100%;
-
+  width: 900px;
+  max-width: 80%; 
 }
 
 main {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column;
   justify-content: center;
-  align-items: center;
-
+  align-items: center; */
 }
 
 section {
@@ -34,9 +35,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1000px;
-  max-width: 80%;
-}
+}p
 
 header {
   display: flex;
@@ -47,7 +46,7 @@ header {
 
 .body-main {
   margin-bottom: 20px;
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
 }
 
 footer {
@@ -61,22 +60,27 @@ footer {
   margin-bottom: 15px;
 }
 
-.pizza-div > img {
+.pizza {
   width: 100%;
   height: auto;
-  display: inline-block;
 }
 
 .recipe-section {
   background-image: url('./other-assets/list-bg.png');
   background-position: center;
-  width: 1000px;
 }
+
+.recipe {
+  text-indent: 2em;
+  font-size: 1.13em;
+  margin-bottom: 30px;
+}
+
 .recipe-list {
   height: 300px;
-  padding-left: 130px;
-  padding-top: 60px;
-  padding-bottom: 20;
+  padding-left: 110px;
+  padding-top: 32px;
+  padding-bottom: 20px;
   columns: 2;
   font-family: 'Mali', cursive;
   font-size: 1.25rem;
@@ -93,22 +97,6 @@ footer {
   background-size: 4px 4px;
   overflow: hidden;
 }
-
-/*
-.recipe-section > img {
-  position: absolute;
-  background-position: center;
-  z-index: -1;
-  width: 1000px;
-  height: auto;
-}
-*/
-
-
-.body-heading, .body-top, .bottom, .recipe-section, .recipe-list, .body-main, main, body {
-  border: 2px solid red;
-}
-
 
 header > div {
   display: grid;
@@ -184,6 +172,7 @@ header > div {
 .citations {
   color: black;
   opacity: 50%;
+  margin-bottom: 60px;
 }
 
 .top-citation {
@@ -197,4 +186,5 @@ header > div {
 
 .bottom-citation {
   display: flex;
+  margin: 5px;
 }

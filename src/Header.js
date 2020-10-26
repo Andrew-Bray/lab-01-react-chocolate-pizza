@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ButtonList from './ButtonList.js';
 
 export default class Header extends Component {
     render() {
@@ -16,16 +17,7 @@ export default class Header extends Component {
                     </div>
                 </div>
                 <div className="social-media-div">
-                    <div className="social-media">
-                        <img src="assets/fb-icon.png" />
-                        <img src="assets/twit-icon.png" />
-                        <img src="assets/gp-icon.png" />
-                        <img src="assets/insta-icon.png" />
-                        <img src="assets/flic-icon.png" />
-                        <img src="assets/pint-icon.png" />
-                        <img className="contact-icon" src="assets/rss-icon.png" />
-                        <img src="assets/mail-icon.png" />
-                    </div>
+                <ButtonList />
                 </div>
             </div>
         )
