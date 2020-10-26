@@ -5,7 +5,7 @@ export default class Header extends Component {
     render() {
         return (
 
-            <div>
+            <div className="header-section">
                 <div className="header">
                     <div className="main-logo">
                         <img src="assets/logo.png" alt="a nice logo" />
