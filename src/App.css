@@ -1,0 +1,200 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  --header-height: 80px;
+  --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+  --gutter: 30px;
+  --footer-height: 25px;
+
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(81, 80, 87);
+  background-color: var(--color2);
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
+  width: 1000px; /*hmmmmmm*/
+  height: 100%;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  max-width: 80%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-main {
+  margin-bottom: 20px;
+  font-size: 1.2rem; 
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Crimson Text', serif;
+}
+
+.pizza-div {
+  margin-bottom: 15px;
+}
+
+.pizza-div > img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.recipe-section {
+  background-image: url('./other-assets/list-bg.png');
+  background-position: center;
+  width: 1000px;
+}
+.recipe-list {
+  height: 300px;
+  padding-left: 130px;
+  padding-top: 60px;
+  padding-bottom: 20;
+  columns: 2;
+  font-family: 'Mali', cursive;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  list-style-image: url('./other-assets/box-unchecked.png');
+  color: rgb(105, 80, 56);
+}
+
+.low-divider {
+  border: 0;
+  height: 15px;
+  background-image: url('./other-assets/hr-img.png');
+  background-repeat: repeat;
+  background-size: 4px 4px;
+  overflow: hidden;
+}
+
+/*
+.recipe-section > img {
+  position: absolute;
+  background-position: center;
+  z-index: -1;
+  width: 1000px;
+  height: auto;
+}
+*/
+
+
+.body-heading, .body-top, .bottom, .recipe-section, .recipe-list, .body-main, main, body {
+  border: 2px solid red;
+}
+
+
+header > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  justify-content: space-between;
+  /* align-content: right; */
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.contact-icon {
+  margin-left: 10px;
+}
+
+.main-logo {
+  display: flex;
+  align-items: center;
+}
+
+.main-logo-label {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.logo-label1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 3em;
+}
+
+.logo-label2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: .75em;
+  letter-spacing: -1px;
+  margin-top: -9px;
+  margin-left: 7px;
+  color: darkslategrey;
+}
+
+.social-media-div {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.divider {
+  margin-top: 30px;
+  border-top: 2px dashed darkslategrey;
+  width: 100%;
+}
+
+.bottom-divider-r {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, .75));
+  opacity: 20%;
+}
+
+.bottom-divider-l {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  opacity: 20%;
+}
+
+.citations {
+  color: black;
+  opacity: 50%;
+}
+
+.top-citation {
+  display: flex;
+  margin-top: 20px;
+}
+
+.dot {
+  display: flex;
+}
+
+.bottom-citation {
+  display: flex;
+}
