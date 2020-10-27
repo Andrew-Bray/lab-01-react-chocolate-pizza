@@ -3,7 +3,7 @@ import IngredientItem from './IngredientItem.js';
 import { recipes } from './ingredientData.js';
 
 let recipeMap = recipes.map( i => 
-    <IngredientItem amount={i.amount} name={i.name}/>
+    <IngredientItem amount={i.amount} name={i.name} key={i.name}/>
 );
 
 export default class IngredientList extends Component {
