@@ -14,7 +14,7 @@ export default class MainSection extends Component {
                 </div>
                 <div className="body-main">
                     <div className="pizza-div">
-                        <img className="pizza" src="./assets/choco-pizza.png" />
+                        <img className="pizza" src="./assets/choco-pizza.png" alt="choco pizza" />
                     </div>
                     <div>
                         <p className="recipe">
@@ -30,7 +30,7 @@ export default class MainSection extends Component {
                 </div>
                 {/* ingredient list with data prop */}
                 <IngredientList />
-                <hr/>
+                <hr />
                 <div className="bottom">
                 </div>
             </section>
